@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Tip calculator</title>
+</head>
+
+<body>
+  <div class="overlay">
+    <!-- MAIN -->
+    <main>
+      <form action="">
+        <h1>Tip Calculator</h1>
+        <div class="group">
+          <label for="bill-value">How much was your bill?</label>
+          <input type="number" name="bill-value" id="bill-value" class="fields" />
+        </div>
+        <div class="group">
+          <label for="sharing">How many people share the bill?</label>
+          <input type="number" name="sharing" id="sharing" class="fields" />
+        </div>
+        <div class="group">
+          <p>How was your service?</p>
+          <select name="dropdown" id="dropdown" placeholder="Select one..." class="fields">
+            <option value="">Select here...</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+          </select>
+        </div>
+        <button type="button" id="calculate">Calculate</button>
+      </form>
+      <div class="bottom"></div>
+    </main>
+  </div>
+  <!-- RESULT -->
+  <div class="result hidden">
+    <p>Tip amount: <span id="tip">0</span></p>
+    <p>Total amount: <span id="total">0</span></p>
+    <p>Each person owes: <span id="owes">0</span></p>
+    <button id="btn-new">New</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
