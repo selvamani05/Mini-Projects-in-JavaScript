@@ -1,0 +1,28 @@
+body {
+    background: grey;
+}
+
+canvas {
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    margin-left: -600px;
+}
+
+#canvasMain {
+    background: darkred;
+}
+
+#canvasHelper {
+    visibility: hidden;
+}
+
+html {
+    text-align: center;
+}
+
+h1,
+p {
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    position: relative;
+}
