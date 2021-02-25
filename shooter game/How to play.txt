@@ -1,0 +1,6 @@
+You are Cupid now. Shoot arrows at the hearts!
+The faster you shoot all the hearts, the better your score.
+But be warned: if you hit any particular heart more than once, it will break! 
+Your score will be lowered by the passing of time as well as every miss and every broken heart.
+The game ends when all the hearts have been shot.
+Good luck!
